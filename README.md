@@ -210,12 +210,12 @@ complete the following steps together:
    that their details inside `metadata.json` have been filled out correctly. 
 6. Submit the project repository on Gradescope as per the instructions under
    the [Gradescope Submissions](#gradescope-submissions) section below.
-7. Once the submission is complete and metadata validation passes, an automated
-   commit will be added to the repository containing a template `README.md` and
-   a bare bones Unity project. This is the starting point for your team's game
-   design document and prototype. Please ensure that all team members can pull
-   and build the project for WebGL locally. If successful, you will see a simple
-  Unity scene with a cube at the origin.
+7. Once the submission is complete and the validation tests pass, a commit
+   will be automatically pushed to the repository containing a template
+   `README.md` and a bare bones Unity project. This is the starting point for
+   your team's game design document and prototype. Please ensure that all team
+   members can pull and build the project for WebGL locally. If successful, you
+  will see a simple Unity scene with a cube at the origin.
 
 In subsequent milestones, the Unity project in the repository will be
 automatically built and deployed to GitHub pages whenever you submit your
@@ -231,6 +231,13 @@ in a web browser, and is a key part of the assessment process.
 
 ## Milestone 2: Game Design Document
 **Due: Sunday 25 August, 11.59 pm Melbourne time (team submission)**
+
+> [!CAUTION] 
+> Ensure that you have successfully submitted the first milestone via
+> Gradescope before starting work on this one. Important template files will
+> not be available in your team's repository until all validation tests pass
+> for the first time. Continuing without these files will lead to significant
+> issues later on.
 
 By this milestone, your team must have **drafted** a Game Design Document (GDD)
 in the repository's `README.md` file. The GDD should provide a detailed vision
