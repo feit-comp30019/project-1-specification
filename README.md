@@ -209,7 +209,11 @@ complete the following steps together:
    GitHub. All team members should **pull** the changes from GitHub to ensure
    that their details inside `metadata.json` have been filled out correctly. 
 6. Submit the project repository on Gradescope as per the instructions under
-   the [Gradescope Submissions](#gradescope-submissions) section below.
+   the [Gradescope Submissions](#gradescope-submissions) section below. To
+   launch Gradescope and connect it to Canvas for the first time, click on the
+   big button at the end of the <a
+   href="https://canvas.lms.unimelb.edu.au/courses/186043/assignments/488824">Milestone
+   1 LMS page</a>.
 7. Once the submission is complete and the validation tests pass, a commit
    will be automatically pushed to the repository containing a template
    `README.md` and a bare bones Unity project. This is the starting point for
