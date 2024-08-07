@@ -14,7 +14,7 @@ partake fully in all team milestones.
 
 #### Team submissions
 
-- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due **Wednesday 7 August, 11.59 pm Melbourne time**
+- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due **Friday 9 August, 11.59 pm Melbourne time**
 - [Milestone 2 | Game Design Document](#milestone-2-game-design-document) ... due **Sunday 25 August, 11.59 pm Melbourne time**
 - [Milestone 3 | Unity Prototype](#milestone-3-unity-prototype) ... due **Sunday 1 September, 11.59 pm Melbourne time**
 
@@ -151,7 +151,7 @@ project (i.e. in the event of a dispute).
 > frustration and wasted time.
 
 ## Milestone 1: Team Declaration
-**Due: Wednesday 7 August, 11.59 pm Melbourne time (team submission)**
+**Due: Friday 9 August, 11.59 pm Melbourne time (team submission)**
 
 After you have formed a team of 3-4 people, set up an initial meeting and
 complete the following steps together:
