@@ -46,10 +46,7 @@ partake fully in all team milestones.
 - [WebGL Builds](#webgl-builds)
 - [Gradescope Submissions](#gradescope-submissions)
 - [Late Submission Policy](#late-submission-policy)
-    - [Team submissions](#team-submissions-1)
-    - [Individual submissions](#individual-submissions-1)
 - [Academic Honesty](#academic-honesty)
-  - [Use of AI Tools (e.g., ChatGPT)](#use-of-ai-tools-eg-chatgpt)
   - [Unity Asset Store](#unity-asset-store)
   - [Credit where credit is due ...](#credit-where-credit-is-due-)
 - [Resources and Help](#resources-and-help)
@@ -653,62 +650,27 @@ such, we will not be able to consider any issues raised after the deadline.
 
 ## Late Submission Policy
 
-#### Team submissions
+Because this subject's assignments are all either group submissions or oral assessments, the usual Short Extensions (1-3 days) are not available for this subject, unless the student was granted Special Considerations or has an AAP. 
 
-The deadline for the [milestone 3](#milestone-3-final-submission) submission is
-strict, with write access to the GitHub repository automatically locked at the
-deadline. Contact the subject staff immediately if you wish to make a late
-submission so that the repository can be temporarily unlocked. 
+More information about this can be found here: [FEIT Extensions and Special Considerations](https://canvas.lms.unimelb.edu.au/courses/239872/pages/feit-extensions-and-special-considerations?module_item_id=7578500)
 
-> [!WARNING]
-> The penalty for late submission of milestone 3 is 10% of the total available
-> marks (3 marks) per day or part thereof, up to a maximum of 5 days. After
-> this time, late submissions will not be accepted.
-
-Penalties also apply for late completion of the earlier team milestones, but
-these fall under the marking criteria outlined above. 
-
-#### Individual submissions
-
-The deadline for the **Team Member Evaluation** ([milestone
-4](#milestone-4-team-member-evaluation)) is also strict, with late submissions
-not being accepted (the peer review portal automatically shuts). Failure to
-submit will be taken to be an indication that you have not contributed to the
-project, and penalties may apply as a result.
+>[!WARNING]
+> All deadlines indicated are strict. The penalty for late submission of Milestone 2 and 3 is 10% of the total available marks (3 marks) per day or part thereof, up to a maximum of 5 days. 
+> After this time, late submissions will not be accepted. Milestone 4 will not accept late submission (the peer review portal automatically shuts). 
+> Failure to submit will be taken to be an indication that you have not contributed to the project, and penalties may apply as a result.
 
 ## Academic Honesty
 
-Every member of your team is expected to follow the University's [Academic
-Honesty](https://academichonesty.unimelb.edu.au/) policies. To ensure that you
-properly attribute work that is not your own, your team must:
+Every member of your team is expected to follow the University's Academic Integrity policies. To ensure that you properly attribute work that is not your own, your team must:
 
-- Include a "References" section at the end of your repository's `README.md`
-  outlining all external resources used.
-- For code or game logic, you must **also** include comments within the
-  respective source code files providing direct link(s) to the sources utilised. 
+- Include a "References" section at the end of your repository's README.md outlining all external resources used.
+- For code or game logic, you must also include comments within the respective sourcecode files providing direct link(s) to the sources utilised.
+- If you use an AI tool to support secondary tasks such as polishing text or generating concept art for the GDD, you must cite it in your README.md file (under the "references" section), and outline exactly how it was used.
+- You must not use AI to author the components that are directly assessed for your own technical and analytical skill. In the group project this includes the game concept and ideas described in the GDD, and the custom Cg/HLSL shader programs.
 
-Submitting work that a member of your team has not authored, without proper
-attribution, is considered academic misconduct. Also bear in mind that heavy
-reliance on external resources may result in a lower mark, as it is difficult
-to assess your own understanding of the concepts involved.
+Submitting work that a member of your team has not authored, without proper attribution, is considered academic misconduct. Also bear in mind that heavy reliance on external resources may result in a lower mark, as it is difficult to assess your own understanding of the concepts involved.
 
-### Use of AI Tools (e.g., ChatGPT)
-
-Please see the University's [stance on AI
-Tools](https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies).
-In particular:
-
-> If a student uses artificial intelligence software such as ChatGPT or
-> QuillBot to generate material for assessment that they represent as their own
-> ideas, research and/or analysis, they are NOT submitting their own work.
-> Knowingly having a third party, including artificial intelligence
-> technologies, write or produce any work (paid or unpaid) that a student
-> submits as their own work for assessment is deliberate cheating and is
-> academic misconduct.
-
-If you use an AI tool to develop any component of the project, you **must**
-cite it in your `README.md` file (under the "references" section), and outline
-exactly how it was used. 
+More information is available here: [Academic Integrity Expectations and Information](https://canvas.lms.unimelb.edu.au/courses/239872/pages/academic-integrity-expectations-and-information?module_item_id=7578505)
 
 ### Unity Asset Store
 
