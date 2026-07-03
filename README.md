@@ -42,7 +42,6 @@ partake fully in all team milestones.
 - [Milestone 3: Unity Prototype](#milestone-3-unity-prototype)
   - [Submission](#submission-1)
 - [Milestone 4: Team Member Evaluation](#milestone-4-team-member-evaluation)
-- [Milestone 5: Team Feedback Reflection](#milestone-5-team-feedback-reflection)
 - [Assessment](#assessment)
 - [WebGL Builds](#webgl-builds)
 - [Gradescope Submissions](#gradescope-submissions)
@@ -128,14 +127,12 @@ and how it will be marked.
 
 ### Development Tools
 
-You'll be collaborating with your team via GitHub Classroom. The first workshop
-of the semester (week 1) covers the basics of both Git and GitHub Classroom, so
-ensure that you've completed it in full before starting work on the project
-(the intro guide can be found
-[here](https://canvas.lms.unimelb.edu.au/courses/186043/files/19879253?module_item_id=5862904)).
+You'll be collaborating with your team via GitHub. The first workshop
+of the semester (week 1) covers the basics of Git and Github, so
+ensure that you've completed it in full before starting work on the project.
 
 Your prototype ([milestone 3](#milestone-3-unity-prototype)) must be developed
-with [Unity 2022 LTS](https://unity.com/releases/2022-lts), using the template
+with [Unity 6.3 LTS](https://unity.com/releases/editor/whats-new/6000.3.18f1#notes), using the template
 provided in your team's repository as a starting point. A `.gitignore` is also
 already included in the repository. All team members are expected to regularly
 commit and push their contributions to GitHub. Note that the git commit history
@@ -161,21 +158,11 @@ complete the following steps together:
    name that is alphanumeric characters, spaces, underscores and/or hyphens (no
    other special characters). Names should also be between 3 and 50 characters
    in length.
-
-2. The **team leader** should accept the assignment on GitHub Classroom. The
-   invite link can be found on the <a
-   href="https://canvas.lms.unimelb.edu.au/courses/186043/assignments/488824">Milestone
-   1 LMS page</a>. This creates a new private repository for your team.
-3. Once the team has been created, **all other team members** should *join* the
-   same team on GitHub Classroom, via the same invite link. This will
-   automatically make them collaborators in the repository.
-4. On behalf of the team, the **team leader** should add a single
-   `metadata.json` file at the root of the template repository following the
-   structure below. This file should be modified and committed to the `main` branch.
+2. On behalf of the team, the **team leader** should create a single 
+   `metadata.json` file following the format below.
 
     ```json
     {
-      "repoUrl": "https://github.com/feit-comp30019/2024s2-project-1-<REPLACE_ME>",
       "teamName": "Your Team Name",
       "teamMembers": [
         {
@@ -198,25 +185,24 @@ complete the following steps together:
     ```
 
    If your team has four members, you should add a fourth object to the
-   `teamMembers` array. The `repoUrl` field should be the URL of the GitHub
-   repository, with `<REPLACE_ME>` replaced with the actual repository name.
-
-5. Once the **team leader** has completed the `metadata.json` template, they
-   should **commit and push** the changes, and verify that they are visible on
-   GitHub. All team members should **pull** the changes from GitHub to ensure
-   that their details inside `metadata.json` have been filled out correctly. 
-6. Submit the project repository on Gradescope as per the instructions under
+   `teamMembers` array.  
+3. Submit the single `metadata.json` file to Gradescope as per the instructions under
    the [Gradescope Submissions](#gradescope-submissions) section below. To
    launch Gradescope and connect it to Canvas for the first time, click on the
    big button at the end of the <a
-   href="https://canvas.lms.unimelb.edu.au/courses/186043/assignments/488824">Milestone
+   href="https://canvas.lms.unimelb.edu.au/courses/239872/assignments/659411">Milestone
    1 LMS page</a>.
-7. Once the submission is complete and the validation tests pass, a commit
-   will be automatically pushed to the repository containing a template
-   `README.md` and a bare bones Unity project. This is the starting point for
-   your team's game design document and prototype. Please ensure that all team
-   members can pull and build the project for WebGL locally. If successful, you
+4. Once the submission is complete and the validation tests pass, a repository will be created
+   on your behalf and your entire team will be granted push access to this repository. 
+   **Your repository URL will be shown in the Gradescope output**.
+   A single commit will be automatically pushed to the repository containing a template
+   `README.md`, `REPORT.md` and a bare bones Unity project. This is the starting point for
+   your team's game design document and prototype. Please ensure that **all team
+   members** can **pull and build** the project for WebGL locally. If successful, you
   will see a simple Unity scene with a cube at the origin.
+5. To test your push access in the repository, please **commit and push** the same `metadata.json` that you 
+   submitted to gradescope to the top level of your repository. **All team members** should pull the changes from GitHub 
+   to ensure that they.
 
 In subsequent milestones, the Unity project in the repository will be
 automatically built and deployed to GitHub pages whenever you submit your
