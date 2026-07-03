@@ -21,7 +21,6 @@ partake fully in all team milestones.
 #### Individual submissions
 
 - [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Wednesday 21 September, 11.59 pm Melbourne time**
-- 
 
 ## Table of Contents
 - [Assignment Brief](#assignment-brief)
@@ -149,7 +148,7 @@ project (i.e. in the event of a dispute).
 > frustration and wasted time.
 
 ## Milestone 1: Team Declaration
-**Due: Friday 9 August, 11.59 pm Melbourne time (team submission)**
+**Due: Sunday 16 August, 11.59 pm Melbourne time (team submission)**
 
 After you have formed a team of 3-4 people, set up an initial meeting and
 complete the following steps together:
@@ -232,7 +231,7 @@ in a web browser, and is a key part of the assessment process.
 > via a private post on the discussion board.
 
 ## Milestone 2: Game Design Document
-**Due: Sunday 25 August, 11.59 pm Melbourne time (team submission)**
+**Due: Sunday 6 September, 11.59 pm Melbourne time (team submission)**
 
 > [!CAUTION] 
 > Ensure that you have successfully submitted the first milestone via
@@ -419,7 +418,7 @@ under the [Gradescope Submissions](#gradescope-submissions) section below, like
 you did for the first milestone.
 
 ## Milestone 3: Unity Prototype
-**Due: Sunday 1 September, 11.59 pm Melbourne time (team submission)**
+**Due: Sunday 13 September, 11.59 pm Melbourne time (team submission)**
 
 For the third and final team milestone in this project, you will create a Unity
 prototype that serves as a "proof-of-concept" of your game, reflecting the core
@@ -502,7 +501,7 @@ the **final version** of the prototype (i.e. the one you want to be marked) can 
 played in a browser via the link on the submission confirmation page. 
 
 ## Milestone 4: Team Member Evaluation
-**Due: Wednesday 4 September, 11.59 pm Melbourne time (individual submission)**
+**Due: Sunday 21 September, 11.59 pm Melbourne time (individual submission)**
 
 Teamwork is an essential part of the project, and it is possible for individual
 group members to receive a different mark from that of the group. Most
@@ -553,23 +552,6 @@ accordingly if it is found that a team member has not contributed as expected.
 > your feedback and have an opportunity to address it before starting Project
 > 2. We also won't retrospectively adjust marks based on issues raised after the
 > deadline for this milestone.
-
-## Milestone 5: Team Feedback Reflection
-**Due: Sunday 8 September, 11.59 pm Melbourne time (individual submission)**
-
-After you have completed the group member evaluation, you will be able to see
-the feedback that your team members have provided for you. You are also given
-the opportunity to reflect on this feedback and discuss what you did well and
-will continue to do in Project 2, as well as where you can improve. This task
-is technically optional, but we nonetheless encourage you to take the time to
-write something, even if brief.
-
-If deemed necessary, we may look at individual reflections as part of our
-decision-making process for adjusting marks. Importantly, if you feel that you
-have been unfairly evaluated, you can provide a response here (if this is about
-unequal contributions, please provide repository URLs to commits where you have
-contributed to the project). Once again, please be respectful and constructive
-in your responses.
 
 ## Assessment
 
