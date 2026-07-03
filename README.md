@@ -90,7 +90,7 @@ Although the premise, art style and mechanics of your game are up to your team
 and creativity is strongly encouraged, there are some high level requirements
 that must be adhered to:
 
-- The game must be designed to address the __Sci-fi worlds_ theme as described
+- The game must be designed to address the _Sci-fi worlds_ theme as described
   previously.
 - The game must be _single-player_ and simple enough in scope to be completed
   by the end of the semester. No more than 10 minutes of gameplay should be
@@ -499,7 +499,7 @@ After your team makes a submission for the final milestone, you are
 individually required to submit a group member evaluation form for each of your
 team members. This is conducted via a tool called FeedbackFruits, which you can
 access [via the
-LMS](https://canvas.lms.unimelb.edu.au/courses/186043/assignments/488825).
+LMS](https://canvas.lms.unimelb.edu.au/courses/239872/assignments/659412).
 
 > [!WARNING]
 > The group member evaluation is compulsory and must be submitted by the
@@ -539,55 +539,51 @@ accordingly if it is found that a team member has not contributed as expected.
 
 ## Assessment
 
-This assignment is worth 30% of your final mark. It will be assessed based on
+This assignment is worth 40% of your final mark. It will be assessed based on
 the following criteria:
 
-**Game Concept (6 marks):** 
-- The game's concept should be clear, unique, and interesting, reflecting
-  creativity and originality.
-- The game should be feasible to implement by the end of the semester, as evidenced
-  by the prototype and GDD.
-- The "Sci-fi worlds" theme should be effectively addressed and integrated into
-  the game's concept.
+### 1. Game Design Document (14 marks) — *Group Mark*
+
+#### Game Concept (5 marks)
+
+- The game's concept should be clear, unique, and interesting, reflecting creativity and originality.
+- The theme should be effectively addressed and integrated into the game's concept.
 - The game mechanics should be well-defined, engaging, and (theoretically) fun.
 
-**Game Design Document (14 marks):**
-- The GDD should provide a clear vision for the game's design. It should be
-  well structured, including elements described under the second milestone
-  specification where appropriate.
-- There should be a realistic and well-considered timeline with an equitable
-  process for communication and task division among team members.
-- Use of diagrams, sketches, links, and other visual aids should be used
-  liberally to support the text.
-- The document should be well-written, easy to read, and formatted
-  appropriately in "GitHub flavoured" markdown. The `README.md` file in the
-  given template repository must be utilised to capture the design document.
+#### Document Quality (5 marks)
 
-**Unity Prototype (6 marks):** 
-- Player controls and interactions between characters should be functional
-  (including any supporting animations).
-- Camera mechanics should be operational, including interactions with the
-  environment and characters.
-- Externally sourced (artistic) assets should be showcased, and it should be
-  evident that they will be compatible with the game's art style, while also
-  being technically feasible in a WebGL deployment.
-- The prototype should reflect the vision outlined by the GDD, and provide a
-  solid foundation for further development into a complete, fun and polished
-  game.
-- As a WebGL build, the prototype should run at a reasonable framerate (30fps
-  or higher) on a typical laptop/desktop computer web browser.
+- The `README.md` file in the provided template repository must be used to capture the Game Design Document.
+- The document should be well-structured, well-written, easy to read, and formatted appropriately using GitHub Flavoured Markdown.
+- The document should make liberal use of diagrams, sketches, links, and other visual aids to support the text.
 
-**Project Organisation (4 marks):**
-- The project should be well-organised and easy to navigate, with
-  `Assets/StartScene.unity` being the entry point. The assets folder must not
-  exceed 250MB in size.
-- All autograder "validation" tests should pass by the deadline for each
-  milestone. Workflow files provided in the template repository must not be
-  modified (everything under `.github/workflows`).
-- All team members must be committing to the GitHub classroom repository, and a
-  workflow for avoiding/resolving merge conflicts should be in place.
-- All milestone deadlines must be met, and the project should show evidence of
-  iterative development (i.e. not just a few of commits at the end).
+#### Feasibility (4 marks)
+
+- The game should be feasible to implement by the end of the semester, with a realistic and well-considered timeline until the final Assignment 2 deadline.
+- Work should be clearly divided into tasks among team members, with clear strategies for time management, communication, and anticipating challenges.
+
+### 2. Working Prototype Including Shaders (20 marks)
+
+#### Game Prototype (8 marks) — *Group Mark*
+
+- The input mechanisms should be functional enough to test the game prototype and experience its features.
+- Camera orientation, positioning, and movement should be comfortable.
+- The game prototype should be mostly consistent with the Game Design Document, with clearly visible and distinguishable objects (placeholder assets may still be used).
+- The prototype should run correctly in WebGL without bugs or missing textures and maintain at least **30 FPS**.
+
+#### Shader (12 marks) — *Individual Mark × (IOA Weight)*
+
+- The shader should be non-trivial and custom-written for the game.
+- The shader should appropriately enhance the game's visuals and potentially reduce CPU load.
+- The shader should produce a distinct effect from the shaders created by other team members.
+
+### 3. Project Organisation (6 marks) — *Group Mark × (FeedbackFruits Score)*
+
+- The project should be well-organised and easy to navigate, with `Assets/StartScene.unity` as the entry point.
+- The `Assets` folder must not exceed **250 MB** in size.
+- All autograder validation tests must pass by each milestone deadline, and required workflow files must not be modified.
+- All team members should regularly commit to the GitHub repository, with a process in place to avoid and resolve merge conflicts.
+- All milestone deadlines must be met, including team member evaluations, and the project should demonstrate iterative development with the latest version on the `main` branch by each deadline.
+- All guidelines in the assignment specification, including submission and late submission requirements, must be followed.
 
 ## WebGL Builds
 
@@ -618,20 +614,21 @@ modify something, ask the teaching team first.
 A submission via Gradescope is required for every team-based submission
 (milestones 1-3). To make a submission, complete the following steps:
 
-1. Ensure that the GitHub repository is up-to-date and that the latest changes
-   are merged into the `main` branch (if your team is using multiple branches).
-2. The **team leader** must submit the project repository on Gradescope, which
-   can be opened via the respective LMS assignment page. This will require
+1. For **Milestone 1**, The **team leader** must submit a single file on gradescope, which
+   can be opened via the respective LMS assignment page. 
+2. For **Milestone 2-3**, The **team leader** must submit the (Github) project repository on Gradescope. This will require
    linking their GitHub account to Gradescope if they haven't already done so.
-3. The **team leader** should wait for the autograder to validate the
+4. Ensure that the GitHub repository is up-to-date and that the latest changes
+   are merged into the `main` branch (if your team is using multiple branches).
+6. The **team leader** should wait for the autograder to validate the
    submission, and ensure that all validation test cases pass. 
-4. The **team leader** must then add all team members to the Gradescope submission.
+7. The **team leader** must then add all team members to the Gradescope submission.
    See [this
    guide](https://guides.gradescope.com/hc/en-us/articles/21863861823373-Adding-Group-Members-to-a-Submission)
    if you are unsure how to do this.
-5. **All team members** are expected to verify that they can see the submission
-   on Gradescope, that all test cases have passed, and that (for milestones 2
-   and 3) that the correct version of the game has been deployed (see below).
+8. **All team members** are expected to verify that they can see the submission
+   on Gradescope, that all test cases have passed, and that (for milestones 3
+   and 3) the correct version of the game has been deployed (see below).
    If you're having issues, please contact the teaching team via a private post
    on the discussion board.
 
@@ -678,12 +675,6 @@ The deadline for the **Team Member Evaluation** ([milestone
 not being accepted (the peer review portal automatically shuts). Failure to
 submit will be taken to be an indication that you have not contributed to the
 project, and penalties may apply as a result.
-
-While the deadline for the **Team Feedback Reflection** ([milestone
-5](#milestone-5-team-feedback-reflection)) is again strict, this task is
-optional. However, it is your only opportunity to respond to any issues raised
-in the team member evaluation, so keep this in mind as we will not be able to
-consider any responses made after the deadline.
 
 ## Academic Honesty
 
