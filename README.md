@@ -1,7 +1,7 @@
 # Project 1: Game Design and Prototype
 **Participants:** This project is to be completed in groups of 3-4 people.
 
-**Marks:** This project counts towards 30% of your marks for this subject.
+**Marks:** This project counts towards 40% of your marks for this subject.
 
 **Due date:** Multiple submissions required; see the [schedule](#schedule) below.
 
