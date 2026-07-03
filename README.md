@@ -64,19 +64,19 @@ partake fully in all team milestones.
 [DESCRIPTION ADD HERE]
 You are tasked with designing a simple game. Your creation should address the theme above, and be playable in a web browser. Here are some examples of famous games that fit within this theme (but not limited to):
 
-    No Man's Sky
-    Dead Space
-    Cyberpunk 2077
-    Bioshock
-    Mass Effect
-    Subnautica
-    Doom
-    Titan Fall
-    Death Stranding
-    Fallout
-    Portal
-    Space Engineers
-    Deep Rock Galactic
+  - No Man's Sky
+  - Dead Space
+  - Cyberpunk 2077
+  - Bioshock
+  - Mass Effect
+  - Subnautica
+  - Doom
+  - Titan Fall
+  - Death Stranding
+  - Fallout
+  - Portal
+  - Space Engineers
+  - Deep Rock Galactic
     
 In this first project, your team will focus on the conceptual design and
 initial prototype of your game. You'll come up with an initial concept, design
