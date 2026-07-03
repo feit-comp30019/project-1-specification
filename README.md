@@ -14,16 +14,14 @@ partake fully in all team milestones.
 
 #### Team submissions
 
-- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due **Friday 9 August, 11.59 pm Melbourne time**
-- [Milestone 2 | Game Design Document](#milestone-2-game-design-document) ... due **Sunday 25 August, 11.59 pm Melbourne time**
-- [Milestone 3 | Unity Prototype](#milestone-3-unity-prototype) ... due **Sunday 1 September, 11.59 pm Melbourne time**
+- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due **Sunday 16 August, 11.59 pm Melbourne time**
+- [Milestone 2 | Game Design Document](#milestone-2-game-design-document) ... due **Sunday 3 September, 11.59 pm Melbourne time**
+- [Milestone 3 | Unity Prototype](#milestone-3-unity-prototype) ... due **Sunday 10 September, 11.59 pm Melbourne time**
 
 #### Individual submissions
 
-- [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Wednesday 4 September, 11.59 pm Melbourne time**
-- [Milestone 5 | Team Feedback Reflection](#milestone-5-team-feedback-reflection) ... due **Sunday 8 September, 11.59 pm Melbourne time**
-
-
+- [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Wednesday 21 September, 11.59 pm Melbourne time**
+- 
 
 ## Table of Contents
 - [Assignment Brief](#assignment-brief)
