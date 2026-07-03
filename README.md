@@ -59,26 +59,25 @@ partake fully in all team milestones.
 
 ### Overview
 
-**The theme:** *Eerie worlds*
+**The theme:** *Sci-fi Worlds*
 
-You are tasked with designing a simple but _eerie_ game. Your creation should evoke a sense of _unease_, and _fascination_, drawing players into a _surreal_ and _spooky_ atmosphere. It must **steer clear** of cliche horror tropes like zombies, jump scares, or "slendermen" games. You should strive to challenge conventional gameplay mechanics by incorporating creative elements that are bizarre, yet captivating.
+[DESCRIPTION ADD HERE]
+You are tasked with designing a simple game. Your creation should address the theme above, and be playable in a web browser. Here are some examples of famous games that fit within this theme (but not limited to):
 
-Some examples of games with an "eerie" atmosphere you could take inspiration from include (but are not limited to):
-- *Limbo*
-- *Inside*
-- *Machinarium*
-- *The Binding of Isaac*
-- *Don't Starve*
-- *The Stanley Parable*
-- *Return of the Obra Dinn*
-- *Subnautica*
-- *Hellblade*
-- *Alan Wake*
-- *Bioshock*
-- *Heart of Darkness*
-
-All of these games incorporate elements of spookiness, unease, or suspense, but are not strictly "horror games" in the traditional sense.
-
+    No Man's Sky
+    Dead Space
+    Cyberpunk 2077
+    Bioshock
+    Mass Effect
+    Subnautica
+    Doom
+    Titan Fall
+    Death Stranding
+    Fallout
+    Portal
+    Space Engineers
+    Deep Rock Galactic
+    
 In this first project, your team will focus on the conceptual design and
 initial prototype of your game. You'll come up with an initial concept, design
 the basic mechanics, and the art style, and implement a prototype in Unity. This
@@ -91,15 +90,14 @@ Although the premise, art style and mechanics of your game are up to your team
 and creativity is strongly encouraged, there are some high level requirements
 that must be adhered to:
 
-- The game must be designed to address the _eerie worlds_ theme as described
+- The game must be designed to address the __Sci-fi worlds_ theme as described
   previously.
 - The game must be _single-player_ and simple enough in scope to be completed
   by the end of the semester. No more than 10 minutes of gameplay should be
   required to complete the game.
 - The game must be designed to be played in a computer web browser (as a WebGL
   build).
-- The game must be developed using [Unity 2022
-  LTS](https://unity.com/releases/2022-lts) and tracked on GitHub (see
+- The game must be developed using [Unity 6.3 LTS](https://unity.com/releases/editor/whats-new/6000.3.18f1#notes) and tracked on GitHub (see
   [Development Tools](#development-tools) below).
 
 Both projects in this subject must be completed in the **same** group of 3-4
@@ -549,7 +547,7 @@ the following criteria:
   creativity and originality.
 - The game should be feasible to implement by the end of the semester, as evidenced
   by the prototype and GDD.
-- The "eerie worlds" theme should be effectively addressed and integrated into
+- The "Sci-fi worlds" theme should be effectively addressed and integrated into
   the game's concept.
 - The game mechanics should be well-defined, engaging, and (theoretically) fun.
 
