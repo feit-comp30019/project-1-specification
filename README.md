@@ -58,8 +58,7 @@ partake fully in all team milestones.
 
 **The theme:** *Sci-fi Worlds*
 
-[DESCRIPTION ADD HERE]
-You are tasked with designing a simple game. Your creation should address the theme above, and be playable in a web browser. Here are some examples of famous games that fit within this theme (but not limited to):
+You are tasked with designing a sci-fi game. Your creation should transport players to a world shaped by advanced technology, the unknown reaches of space, or visions of the future. You should strive to challenge conventional gameplay mechanics by incorporating creative elements that make your world feel genuinely alien or futuristic. Some examples of games that fit this theme you could take inspiration from include (but are not limited to):
 
   - No Man's Sky
   - Dead Space
