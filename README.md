@@ -192,11 +192,11 @@ complete the following steps together:
    A single commit will be automatically pushed to the repository containing a template
    `README.md`, `REPORT.md` and a bare bones Unity project. This is the starting point for
    your team's game design document and prototype. Please ensure that **all team
-   members** can **pull and build** the project for WebGL locally. If successful, you
+   members** can **pull** and **run** the Unity project locally. If successful, you
   will see a simple Unity scene with a cube at the origin.
 5. To test your push access in the repository, please **commit and push** the same `metadata.json` that you 
    submitted to gradescope to the top level of your repository. **All team members** should pull the changes from GitHub 
-   to ensure that they.
+   to ensure that they can see the newly pushed file in their local copy.
 
 In subsequent milestones, the Unity project in the repository will be
 automatically built and deployed to GitHub pages whenever you submit your
