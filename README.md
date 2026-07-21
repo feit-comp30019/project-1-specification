@@ -20,7 +20,7 @@ partake fully in all team milestones.
 
 #### Individual submissions
 
-- [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Wednesday 21 September, 11.59 pm Melbourne time**
+- [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Sunday 21 September, 11.59 pm Melbourne time**
 
 ## Table of Contents
 - [Assignment Brief](#assignment-brief)
