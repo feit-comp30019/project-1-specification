@@ -1,4 +1,5 @@
-# Project 1: Game Design and Prototype
+# Project 1: Design Document, Working Prototype, and Teamwork Documentation
+
 **Participants:** This project is to be completed in groups of 3-4 people.
 
 **Marks:** This project counts towards 40% of your marks for this subject.
@@ -7,20 +8,17 @@
 
 ## Schedule
 
-This project is split into several milestones, each with its own deadline.
-Milestones 1, 2 and 3 are team submissions, while Milestones 4 and 5 are
-submitted by each team member individually. All group members are expected to
-partake fully in all team milestones.
+Assignment 1 is split into several milestones, each with its own deadline.
 
-#### Team submissions
+#### Team submissions (one submission per team)
 
-- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due **Sunday 16 August, 11.59 pm Melbourne time**
-- [Milestone 2 | Game Design Document](#milestone-2-game-design-document) ... due **Sunday 3 September, 11.59 pm Melbourne time**
-- [Milestone 3 | Unity Prototype](#milestone-3-unity-prototype) ... due **Sunday 10 September, 11.59 pm Melbourne time**
+- [Milestone 1 | Team Declaration](#milestone-1-team-declaration) ... due end of Week 3, **Sunday 16 August, 11.59 pm Melbourne time**
+- [Milestone 2 | Game Design Document](#milestone-2-game-design-document) ... due end of Week 6, **Sunday 06 September, 11.59 pm Melbourne time**
+- [Milestone 3 | Working Prototype and Shaders](#milestone-3-working-prototype-and-shaders) ... due end of Week 7, **Sunday 13 September, 11.59 pm Melbourne time**
 
-#### Individual submissions
-
-- [Milestone 4 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due **Sunday 21 September, 11.59 pm Melbourne time**
+#### Individual submissions (one submission per student)
+- [Milestone 4 | Interactive Oral Assesments]() ... due in **Week 8-9 Tutorials**
+- [Milestone 5 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due end of Week 8, **Sunday 20 September, 11.59 pm Melbourne time**
 
 ## Table of Contents
 - [Assignment Brief](#assignment-brief)
@@ -39,9 +37,15 @@ partake fully in all team milestones.
     - [Team Communication, Timelines and Task Assignment](#team-communication-timelines-and-task-assignment)
     - [Possible Challenges](#possible-challenges)
   - [Submission](#submission)
-- [Milestone 3: Unity Prototype](#milestone-3-unity-prototype)
+- [Milestone 3: Working Prototype and Shaders](#milestone-3-working-prototype-and-shaders)
+  - [Game Prototype (Group)](#game-prototype-group)
+  - [Shaders (Individual)](#shaders-individual)
+    - [Choosing a Shader](#choosing-a-shader)
+    - [Shader Report](#shader-report)
   - [Submission](#submission-1)
-- [Milestone 4: Team Member Evaluation](#milestone-4-team-member-evaluation)
+- [Milestone 4: Interactive Oral Assesments](#milestone-4-interactive-oral-assesment)
+  - [Expectations](#expectations)
+- [Milestone 5: Team Member Evaluation](#milestone-5-team-member-evaluation)
 - [Assessment](#assessment)
 - [WebGL Builds](#webgl-builds)
 - [Gradescope Submissions](#gradescope-submissions)
@@ -56,9 +60,11 @@ partake fully in all team milestones.
 
 ### Overview
 
-**The theme:** *Sci-fi Worlds*
+**The theme:** *150 Years Into the Future*
 
-You are tasked with designing a sci-fi game. Your creation should transport players to a world shaped by advanced technology, the unknown reaches of space, or visions of the future. You should strive to challenge conventional gameplay mechanics by incorporating creative elements that make your world feel genuinely alien or futuristic. Some examples of games that fit this theme you could take inspiration from include (but are not limited to):
+This theme invites you to imagine life 150 years from today. The future you create doesn't have to be utopian or dystopian — it might be hopeful, unsettling, familiar, or completely unexpected. Technology may have transformed society, nature may have reclaimed our cities, or humanity may have found new ways to live alongside AI, alien life, or entirely new forms of existence!
+
+Your ideas could take place in a floating ocean metropolis, a colony beneath the ice of Europa, a forest that has grown over the ruins of Melbourne, or inside a vast digital archive preserving the last memories of humanity. It might explore life aboard an interstellar generation ship, a world where artificial intelligence governs everyday life, a civilisation rebuilding after environmental collapse, or a future where the extraordinary has become ordinary. The future could be more than advanced technology… it could be shaped by culture, relationships, politics, the environment, and the choices we make today…. Some examples of games that fit this theme you could take inspiration from include (but are not limited to):
 
   - No Man's Sky
   - Dead Space
@@ -74,11 +80,7 @@ You are tasked with designing a sci-fi game. Your creation should transport play
   - Space Engineers
   - Deep Rock Galactic
     
-In this first project, your team will focus on the conceptual design and
-initial prototype of your game. You'll come up with an initial concept, design
-the basic mechanics, and the art style, and implement a prototype in Unity. This
-part of the assignment allows you to experiment and refine your game concept
-before heading into the more technical development phase in Project 2.
+In Assignment 1, your team will focus on the conceptual design and initial prototype of your game. You'll come up with an initial concept, design and implement shader programs in Unity. This part of the assignment allows you to put into application what you have learned in the first few weeks, but also experiment and refine your game concept before heading into the more technical development phase in Assignment 2. 
 
 ### Requirements
 
@@ -86,32 +88,28 @@ Although the premise, art style and mechanics of your game are up to your team
 and creativity is strongly encouraged, there are some high level requirements
 that must be adhered to:
 
-- The game must be designed to address the _Sci-fi worlds_ theme as described
+- The game must be designed to address the "_150 Years in the Future_" theme as described
   previously.
 - The game must be _single-player_ and simple enough in scope to be completed
-  by the end of the semester. No more than 10 minutes of gameplay should be
-  required to complete the game.
+  by the end of the semester. 
+- The tutors should be able to see all of your game's features, effects, and mechanics within 10 minutes of playing. You can implement a "skip to final level/boss/ending" to support this, if needed.
 - The game must be designed to be played in a computer web browser (as a WebGL
   build).
 - The game must be developed using [Unity 6.3 LTS](https://unity.com/releases/editor/whats-new/6000.3.18f1#notes) and tracked on GitHub (see
   [Development Tools](#development-tools) below).
 
-Both projects in this subject must be completed in the **same** group of 3-4
+Both assignments in this subject must be completed in the **same** group of 3-4
 people. You can choose your own team members, but **you must have a team by the
 first milestone deadline.** Please attend lectures and workshops in the first
 couple of weeks to meet others looking for group members, if you don't already
 know others in the subject. 
 
-Developing even a simple game is very challenging and time-consuming, so it's
-important to develop a clear vision and a solid plan as a team. You'll need to
-work together to ensure that everyone's ideas are heard and that the workload
-is distributed fairly _from the start_. We strongly recommend that you seek out
-team members who share similar ambitions and work ethics.
+Developing even a simple game is very challenging and time-consuming, so it's important to develop a clear vision and a solid plan as a team in Assignment 1. You'll need to work together to ensure that everyone's ideas are heard and that the workload is distributed fairly from the start. We strongly recommend that you seek out team members who share similar ambitions and work ethics.
 
 > [!IMPORTANT]
 > All team members are expected to contribute equally, and you'll be asked to
 > evaluate your team members at the end of both projects in this subject. See
-> the [Team Member Evaluation](#milestone-4-team-member-evaluation) milestone
+> the [Team Member Evaluation](#milestone-5-team-member-evaluation) milestone
 > for more details.
 
 Before commencing work on the project, everyone in the team is expected to read
@@ -180,7 +178,7 @@ complete the following steps together:
 
    If your team has four members, you should add a fourth object to the
    `teamMembers` array.  
-3. Submit the single `metadata.json` file to Gradescope as per the instructions under
+3. Submit the `metadata.json` file to Gradescope as per the instructions under
    the [Gradescope Submissions](#gradescope-submissions) section below. To
    launch Gradescope and connect it to Canvas for the first time, click on the
    big button at the end of the <a
@@ -195,8 +193,7 @@ complete the following steps together:
    members** can **pull** and **run** the Unity project locally. If successful, you
   will see a simple Unity scene with a cube at the origin.
 5. To test your push access in the repository, please **commit and push** the same `metadata.json` that you 
-   submitted to gradescope to the top level of your repository. **All team members** should pull the changes from GitHub 
-   to ensure that they can see the newly pushed file in their local copy.
+   submitted to gradescope to the top level of your repository. **All team members** should pull the changes from GitHub to ensure that they can see the newly pushed file in their local copy.
 
 In subsequent milestones, the Unity project in the repository will be
 automatically built and deployed to GitHub pages whenever you submit your
@@ -215,12 +212,11 @@ in a web browser, and is a key part of the assessment process.
 
 > [!CAUTION] 
 > Ensure that you have successfully submitted the first milestone via
-> Gradescope before starting work on this one. Important template files will
-> not be available in your team's repository until all validation tests pass
-> for the first time. Continuing without these files will lead to significant
-> issues later on.
+> Gradescope before starting work on this one. You will not have access 
+> to your project repository until all validation tests pass
+> for the first time. 
 
-By this milestone, your team must have **drafted** a Game Design Document (GDD)
+By this deadline, your team must have written a Game Design Document (GDD)
 in the repository's `README.md` file. The GDD should provide a detailed vision
 of your game, allowing any member of your team (and the teaching team!) to
 understand exactly what your game will be. **We are expecting this to be a very
@@ -230,7 +226,7 @@ liberally throughout the document.
 > [!NOTE] 
 > The GDD is intended to be a "living document", meaning that it will be
 > updated as your game evolves. You should have a final draft of the GDD ready
-> by this milestone, and be ready to start prototyping (as per the third
+> by this deadline, and be ready to start prototyping (as per the third
 > milestone). Ensure that you keep the GDD up-to-date as you make changes to
 > your game, so that it always reflects the current state.
 
@@ -239,6 +235,8 @@ needed to best convey your team's vision, but either way, ensure that you
 comprehensively cover all relevant points outlined below. Make sure that it is
 clear how the overarching [theme](#overview) is integrated into the various
 facets of your design.
+
+### Suggested Structure
 
 #### Game Overview
 Here you should provide a concise summary of your game and explain why it is
@@ -317,11 +315,10 @@ navigate through the game world, and what they will interact with.
   do objects interact with each other?
 
 > [!WARNING] 
-> It's best to avoid developing a true "pixel-perfect" 2D game unless you are
-> up for an extra challenge in Project 2. There will be less flexibility when
-> it comes to the choice of shader techniques (you haven't learned much about
-> shaders yet, so it will be hard to comprehend the implications at this
-> point). A safe middle ground is to restrict the gameplay to two axes, but
+> It's best to avoid developing a true "pixel-perfect" 2D game unless you're 
+> looking for an extra challenge later on. Doing so gives you less flexibility 
+> when it comes to the choice of shaders you can write for the next milestone.
+> A safe middle ground is to restrict the gameplay to two axes, but
 > still render a 3D environment. This is sometimes called "2.5D".
 
 #### **Art and Audio**
@@ -397,44 +394,40 @@ a team, submit the project repository on Gradescope as per the instructions
 under the [Gradescope Submissions](#gradescope-submissions) section below, like
 you did for the first milestone.
 
-## Milestone 3: Unity Prototype
+## Milestone 3: Working Prototype and Shaders
 **Due: Sunday 13 September, 11.59 pm Melbourne time (team submission)**
 
-For the third and final team milestone in this project, you will create a Unity
-prototype that serves as a "proof-of-concept" of your game, reflecting the core
-mechanics outlined in the GDD. The goal of this task is to build a solid
-foundation to expand on in the next project, where you'll be developing the
-game in its entirety and evaluating it with end users. 
+By this deadline, you must have created a working Unity prototype and Shaders that serves as a foundation for your game, allowing you to explore the initial graphics for it. The goal is to apply the fundamental graphics concepts you learnt in the first few weeks of lecture and to have a working basis for Assignment 2, where you will complete your game in its entirety and evaluate it with real users. This milestone consists of two components:
 
-Your team should use the prototype as a means to prove that the game outlined
-in your GDD is feasible to implement by the end of the semester, both technically
-and in terms of scope. Don't worry too much about making things "polished" or
-"pretty" at this stage, and we aren't expecting a fully functional game.
-That'll come later!
+- A Unity game prototype to which all team members contribute
+- Shader programs integrated in that prototype, developed by each team member individually 
+
+In other words, your team will submit a single Unity prototype which also contains individually developed shaders. Each team member will then participate in an individual interactive oral assessment during the tutorials of Week 8 and 9.
+
+### Game Prototype (Group)
+
+The game prototype aims to provide the basis for your full game and needs to allow you to demonstrate the effects of your individual shaders. Make sure you agree on what shader each of you is going to work on so that you can plan for what to include collectively in your Unity scene. Don't worry too much about making the game environment and mechanics "polished" or "pretty" at this stage, and we aren't expecting a fully functional game. That'll come later!
 
 > [!IMPORTANT]
 > In the template project provided, there is a scene called `StartScene` which
 > is expected be to be the entry point to your prototype. You can add
-> additional scenes if needed, but ensure that the `StartScene` is the one that
-> gets everything started.
+> additional scenes if needed (ex. when prototyping individual shaders), 
+> but ensure that the `StartScene` is the one that gets everything started in the end. 
 
 In order to secure a good mark for this milestone, your prototype should meet
 the following criteria:
 
-- It should be possible to control the player character(s) and interact with
-  any other characters described in the GDD (including any animations that
-  support their actions). The game world should be sufficiently developed to
-  facilitate these characters and control mechanics, but it's acceptable if the
-  world is "small" or not fully fleshed out at this stage.
-- Camera mechanics as described in the GDD should be operational. You should
-  showcase your proposed camera perspective, and how it interacts with the
-  environment, the characters, and any special camera movements.
-- Externally sourced (artistic) assets that you plan to use in the final game
-  should be showcased. They don't all have to be "functional", but it should be
-  evident that they will be compatible with the game's art style, while _also_
-  being technically feasible in a WebGL deployment (particularly with respect
-  to performance and file size).
-- The prototype must be consistent with the GDD, and provide a solid foundation
+- **Inputs:** It should be possible to control the player character(s).
+- **Camera mechanics:** Camera mechanics as described in the GDD should be 
+  operational. You should showcase your proposed camera perspective, and how it 
+  interacts with the environment, the characters, and any special camera movements
+- **Deployability:** We are not expecting to see the final game environment and assets 
+  at this stage, but there should be sufficient content for you to demonstrate
+  the intended visual style for your game and to showcase the shaders you have created. 
+  If you do include external assets, they don't all have to be "functional", but it should be evident 
+  that they will be compatible with the game's art style, while _also_ being technically 
+  feasible in a WebGL deployment (particularly with respect to performance and file size).
+- **Consistency:** The prototype must be consistent with the GDD, and provide a solid foundation
   for further development into a complete, fun and polished game. It should be
   clear that the vision outlined in the GDD is feasible to implement by the end
   of the semester.
@@ -450,10 +443,87 @@ ambitious as a result of your prototyping, just remember to update the GDD
 accordingly. Identifying and addressing unforeseen issues now will help you
 avoid problems later on, and is in fact a key part of the design process. 
 
-Remember that the prototype is a proof-of-concept for the final game and not a
-complete game in itself. Shaders or "special effects" are not expected at this
-stage, and it's okay for mechanics to be disjointed or not fully integrated,
-provided that they clearly reflect the vision outlined in the GDD.
+### Shaders (Individual)
+
+Each team member is expected to develop one custom Cg/HLSL `.shader` program to enhance the prototype's visuals. Each should be involved in producing a **distinct** effect. 
+This is designed to help you apply or extend fundamental graphics concepts introduced in the subject, while contributing meaningful effects to your team's game. This shaders should be **integrated** and **visible** in your prototype. A strong submission should demonstrate technical depth beyond a direct copy or minor modification of existing examples, all while being beneficial for the visuals of your game.
+
+To receive full credit, your shader should satisfy the following expectations:
+
+- It applies or extends relevant graphics theory and concepts introduced in the subject;
+- It contains meaningful custom logic in the vertex stage, fragment stage, or both;
+- It contributes to the game's visual style, atmosphere, interaction, or gameplay;
+- It exposes meaningful parameters that can be adjusted from Unity;
+- It is integrated into the game prototype and can be easily demonstrated during marking;
+- It is documented in `REPORT.md` in the project repository.
+
+#### Choosing a Shader
+
+Your shader should have a clear purpose within your game. Rather than implementing an effect simply because it looks interesting, think about how it contributes to the overall player experience. A good shader should feel like a natural part of your game rather than an isolated technical demonstration. Each student should choose one primary shader theme from the sections below and clearly identify it in `REPORT.md`.  
+Shader Themes
+
+> [!IMPORTANT]
+> Each student must choose **one primary shader theme** for their assessed shader
+> and clearly identify this theme in `REPORT.md`.
+> The themes describe the **purpose** of the shader, **not** which shader stages
+> you must use. Depending on the effect, your implementation may contain custom
+> logic in the `vertex` stage, the `fragment` stage, or both.
+
+> [!WARNING] Credit will not be awarded for surface shader code or shader graph effects. 
+> We are expecting to see non-trivial `vertex` and/or `fragment` shader code implementations when marking.
+
+##### Theme 1 - Lighting and Stylised Shading
+
+Use this theme if your effect changes how surfaces respond to light.
+
+**Example effects**
+- Toon shading
+- Rim lighting
+- Stylised diffuse/specular lighting
+- Extensions of Phong or Blinn–Phong lighting
+
+##### Theme 2 — Surface Appearance and Procedural Effects
+
+Use this theme if your effect controls surface appearance using textures, UV
+coordinates, masks, or procedural functions.
+
+**Example effects**
+- Dissolve effects
+- Procedural surface patterns
+- Animated UV effects
+- Holograms
+- Reveal/masking effects
+
+##### Theme 3 — Animation and Geometric Deformation
+
+Use this theme if your effect modifies object geometry or movement using shader
+logic.
+
+**Example effects**
+- Wind animation
+- Waving cloth or flags
+- Animated magical objects
+- Environmental deformation
+- Animated water surfaces
+
+#### Shader Report
+
+Each student must include an individual shader report in `REPORT.md`
+(approximately **300–500 words**).
+
+Your report should include:
+
+- A **direct link** to your shader source file.
+- An explanation of **what** the shader does.
+- **Which** shader theme best describes your implementation.
+- A justification for **why** this effect was chosen for your game.
+- A description of **which** parameters are exposed in Unity and what they control.
+- **Screenshots** demonstrating different parameter settings.
+- Any **external resources** consulted (if applicable).
+
+> [!TIP]
+> Focus on explaining your design decisions and implementation approach rather
+> than documenting every line of shader code.
 
 ### Submission
 
@@ -466,7 +536,7 @@ something going wrong increase, so it's best to get ahead of any issues early.
 > [!CAUTION]
 > Double (and triple!) check that the latest changes to your project are in the
 > `main` branch, and make sure this branch is being submitted on Gradescope. We
-> will not be looking at other branches when marking.
+> will not be looking at other branches when marking. 
 
 Once again, follow the instructions under the [Gradescope
 Submissions](#gradescope-submissions) section below in order to submit your
@@ -477,11 +547,52 @@ and should reflect any changes made during the prototyping process.
 
 Every member of your team is expected to verify that the submission on
 Gradescope is visible to them, that all validation test cases pass, and that
-the **final version** of the prototype (i.e. the one you want to be marked) can be
-played in a browser via the link on the submission confirmation page. 
+the **final version** of the prototype (i.e. the one you want to be marked) can
+be played in a browser via the link on the submission confirmation page, with
+all required shader effects visible and functioning correctly.
 
-## Milestone 4: Team Member Evaluation
-**Due: Sunday 21 September, 11.59 pm Melbourne time (individual submission)**
+## Milestone 4: Interactive Oral Assesment
+**Due: During Week 8-9 Tutorials (individual oral)**
+
+During the interactive oral assessment (IOA), you will be explaining the work that you have individually contributed to. Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you will need to bring your laptop and open the code you have submitted on Github at the time of the deadline. The assessor will ask you questions about **randomly selected parts of the code
+that you personally contributed to**. The focus will be on your understanding of
+your own implementation rather than the project as a whole.
+
+The IOA will last **no longer than 5 minutes** and will be conducted **one
+student at a time**, so please ensure that everything is ready on your screen
+before your turn begins.
+
+### Expectations
+
+You can expect technical questions specifically targeting the shader program
+you developed. In particular, you should be able to:
+
+- Give a clear and concise description of the shader you implemented.
+- Explain what each line of your code does
+- Explain the purpose of the major sections of your shader code.
+- Describe shader parameters exposed in Unity and how they affect the shader.
+
+Rather than an oral exam, we consider the IOA as a **code review exercise** to
+help you improve your prototype for Assignment 2. The purpose is not to assess code quality, but to evaluate your understanding and authorship of the code you contributed. This allows us to distinguish
+between individual and team contributions and ensure that you understand the
+code that you have submitted.
+
+The IOA does not receive a separate mark. Instead, it will determine an
+individual **weighting** (e.g. `0.7x`) that is applied to your group's mark to
+calculate your individual mark for Milestone 3. This means that your teammates may have different marks for this group assignment, accounting for their ability to talk about the code they contributed to.
+
+> [!WARNING]
+> If you are unable to demonstrate an understanding of your individually
+> contributed code, or cannot provide evidence that you meaningfully
+> contributed to the implementation, you will receive a **weight of `0×`**.
+> This means your individual mark for this component of the assignment will be
+> **0**.
+>
+> You will also receive a **weight of `0×`** if you do not attend the IOA, unless
+> an approved Special Consideration application has been granted.
+
+## Milestone 5: Team Member Evaluation
+**Due: Sunday 20 September, 11.59 pm Melbourne time (individual submission)**
 
 Teamwork is an essential part of the project, and it is possible for individual
 group members to receive a different mark from that of the group. Most
@@ -557,7 +668,7 @@ the following criteria:
 - The game should be feasible to implement by the end of the semester, with a realistic and well-considered timeline until the final Assignment 2 deadline.
 - Work should be clearly divided into tasks among team members, with clear strategies for time management, communication, and anticipating challenges.
 
-### 2. Working Prototype Including Shaders (20 marks)
+### 2. Working Prototype Including Shaders (20 marks) - *Group mark with individually assessed components*
 
 #### Game Prototype (8 marks) — *Group Mark*
 
@@ -649,7 +760,7 @@ such, we will not be able to consider any issues raised after the deadline.
 
 ## Late Submission Policy
 
-Because this subject's assignments are all either group submissions or oral assessments, the usual Short Extensions (1-3 days) are not available for this subject, unless the student was granted Special Considerations or has an AAP. 
+Because this subject's assignments are all either group submissions or oral assessments, the usual **Short Extensions (1-3 days) are not available for this subject**, unless the student was granted Special Considerations or has an AAP. 
 
 More information about this can be found here: [FEIT Extensions and Special Considerations](https://canvas.lms.unimelb.edu.au/courses/239872/pages/feit-extensions-and-special-considerations?module_item_id=7578500)
 
@@ -662,10 +773,10 @@ More information about this can be found here: [FEIT Extensions and Special Cons
 
 Every member of your team is expected to follow the University's Academic Integrity policies. To ensure that you properly attribute work that is not your own, your team must:
 
-- Include a "References" section at the end of your repository's README.md outlining all external resources used.
+- Include a "References" section at the end of your repository's `README.md` outlining all external resources used.
 - For code or game logic, you must also include comments within the respective sourcecode files providing direct link(s) to the sources utilised.
-- If you use an AI tool to support secondary tasks such as polishing text or generating concept art for the GDD, you must cite it in your README.md file (under the "references" section), and outline exactly how it was used.
-- You must not use AI to author the components that are directly assessed for your own technical and analytical skill. In the group project this includes the game concept and ideas described in the GDD, and the custom Cg/HLSL shader programs.
+- If you use an AI tool to support secondary tasks such as polishing text or generating concept art for the GDD, you must cite it in your `README.md` file (under the "references" section), and outline exactly how it was used.
+- You **must not** use AI to author the components that are directly assessed for your own technical and analytical skill. In the group project this includes the game concept and ideas described in the GDD, and the custom Cg/HLSL shader programs.
 
 Submitting work that a member of your team has not authored, without proper attribution, is considered academic misconduct. Also bear in mind that heavy reliance on external resources may result in a lower mark, as it is difficult to assess your own understanding of the concepts involved.
 
