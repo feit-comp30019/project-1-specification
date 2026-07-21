@@ -591,11 +591,11 @@ calculate your individual mark for Milestone 3. This means that your teammates m
 > [!WARNING]
 > If you are unable to demonstrate an understanding of your individually
 > contributed code, or cannot provide evidence that you meaningfully
-> contributed to the implementation, you will receive a **weight of `0×`**.
+> contributed to the implementation, you will receive a **weight of** `0×`.
 > This means your individual mark for this component of the assignment will be
 > **0**.
 >
-> You will also receive a **weight of `0×`** if you do not attend the IOA, unless
+> You will also receive a **weight of** `0×` if you do not attend the IOA, unless
 > an approved Special Consideration application has been granted.
 
 ## Milestone 5: Team Member Evaluation
@@ -675,7 +675,7 @@ the following criteria:
 - The game should be feasible to implement by the end of the semester, with a realistic and well-considered timeline until the final Assignment 2 deadline.
 - Work should be clearly divided into tasks among team members, with clear strategies for time management, communication, and anticipating challenges.
 
-### 2. Working Prototype Including Shaders (20 marks) - *Group mark with individually assessed components*
+### 2. Working Prototype Including Shaders (20 marks) — *Group mark with individually assessed components*
 
 #### Game Prototype (8 marks) — *Group Mark*
 
