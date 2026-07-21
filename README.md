@@ -17,8 +17,8 @@ Assignment 1 is split into several milestones, each with its own deadline.
 - [Milestone 3 | Working Prototype and Shaders](#milestone-3-working-prototype-and-shaders) ... due end of Week 7, **Sunday 13 September, 11.59 pm Melbourne time**
 
 #### Individual submissions (one submission per student)
-- [Milestone 4 | Interactive Oral Assesments]() ... due in **Week 8-9 Tutorials**
-- [Milestone 5 | Team Member Evaluation](#milestone-4-team-member-evaluation) ... due end of Week 8, **Sunday 20 September, 11.59 pm Melbourne time**
+- [Milestone 4 | Interactive Oral Assesments](#milestone-4-interactive-oral-assesment) ... due in **Week 8-9 Tutorials**
+- [Milestone 5 | Team Member Evaluation](#milestone-5-team-member-evaluation) ... due end of Week 8, **Sunday 20 September, 11.59 pm Melbourne time**
 
 ## Table of Contents
 - [Assignment Brief](#assignment-brief)
@@ -446,31 +446,38 @@ avoid problems later on, and is in fact a key part of the design process.
 ### Shaders (Individual)
 
 Each team member is expected to develop one custom Cg/HLSL `.shader` program to enhance the prototype's visuals. Each should be involved in producing a **distinct** effect. 
-This is designed to help you apply or extend fundamental graphics concepts introduced in the subject, while contributing meaningful effects to your team's game. This shaders should be **integrated** and **visible** in your prototype. A strong submission should demonstrate technical depth beyond a direct copy or minor modification of existing examples, all while being beneficial for the visuals of your game.
+
+This assessment is designed to help you apply or extend fundamental graphics
+concepts introduced in the subject while contributing meaningful effects to your
+team's game. The shader must be **integrated** and **visible** in your
+prototype. A strong submission should demonstrate technical depth beyond a
+direct copy or minor modification of existing examples, while also providing a
+clear visual benefit to the game.
 
 To receive full credit, your shader should satisfy the following expectations:
 
 - It applies or extends relevant graphics theory and concepts introduced in the subject;
-- It contains meaningful custom logic in the vertex stage, fragment stage, or both;
+- It contains meaningful custom logic in the `vertex` stage, `fragment` stage, or both;
 - It contributes to the game's visual style, atmosphere, interaction, or gameplay;
 - It exposes meaningful parameters that can be adjusted from Unity;
 - It is integrated into the game prototype and can be easily demonstrated during marking;
 - It is documented in `REPORT.md` in the project repository.
 
+> [!WARNING]
+> Credit will **not** be awarded for Surface Shader code or Shader Graph
+> effects. We expect to see non-trivial handwritten `vertex` and/or `fragment`
+> shader implementations during marking.
+
 #### Choosing a Shader
 
 Your shader should have a clear purpose within your game. Rather than implementing an effect simply because it looks interesting, think about how it contributes to the overall player experience. A good shader should feel like a natural part of your game rather than an isolated technical demonstration. Each student should choose one primary shader theme from the sections below and clearly identify it in `REPORT.md`.  
-Shader Themes
 
 > [!IMPORTANT]
-> Each student must choose **one primary shader theme** for their assessed shader
+> Each student must choose **one primary shader theme** from the option below for their assessed shader
 > and clearly identify this theme in `REPORT.md`.
 > The themes describe the **purpose** of the shader, **not** which shader stages
 > you must use. Depending on the effect, your implementation may contain custom
 > logic in the `vertex` stage, the `fragment` stage, or both.
-
-> [!WARNING] Credit will not be awarded for surface shader code or shader graph effects. 
-> We are expecting to see non-trivial `vertex` and/or `fragment` shader code implementations when marking.
 
 ##### Theme 1 - Lighting and Stylised Shading
 
