@@ -64,7 +64,7 @@ Assignment 1 is split into several milestones, each with its own deadline.
 
 This theme invites you to imagine life 150 years from today. The future you create doesn't have to be utopian or dystopian — it might be hopeful, unsettling, familiar, or completely unexpected. Technology may have transformed society, nature may have reclaimed our cities, or humanity may have found new ways to live alongside AI, alien life, or entirely new forms of existence!
 
-Your ideas could take place in a floating ocean metropolis, a colony beneath the ice of Europa, a forest that has grown over the ruins of Melbourne, or inside a vast digital archive preserving the last memories of humanity. It might explore life aboard an interstellar generation ship, a world where artificial intelligence governs everyday life, a civilisation rebuilding after environmental collapse, or a future where the extraordinary has become ordinary. The future could be more than advanced technology… it could be shaped by culture, relationships, politics, the environment, and the choices we make today…. Some examples of games that fit this theme you could take inspiration from include (but are not limited to):
+Your ideas could take place in a floating ocean metropolis, a colony beneath the ice of Europa, a forest that has grown over the ruins of Melbourne, or inside a vast digital archive preserving the last memories of humanity. It might explore life aboard an interstellar generation ship, a world where artificial intelligence governs everyday life, a civilisation rebuilding after environmental collapse, or a future where the extraordinary has become ordinary. The future could be more than advanced technology… it could be shaped by culture, relationships, politics, the environment, and the choices we make today. Some examples of games that fit this theme you could take inspiration from include (but are not limited to):
 
   - No Man's Sky
   - Dead Space
@@ -525,7 +525,7 @@ Your report should include:
 - **Which** shader theme best describes your implementation.
 - A justification for **why** this effect was chosen for your game.
 - A description of **which** parameters are exposed in Unity and what they control.
-- **Screenshots** demonstrating different parameter settings.
+- **Screenshots** demonstrating the produced effect with different parameter settings.
 - Any **external resources** consulted (if applicable).
 
 > [!TIP]
