@@ -136,6 +136,11 @@ project (i.e. in the event of a dispute).
 ## Milestone 1: Team Declaration
 **Due: Sunday 16 August, 11.59 pm Melbourne time (team submission)**
 
+> [!CAUTION]
+> This milestone requires **every team member** to be a member of the `feit-comp30019` GitHub organisation.
+>
+> We cover the process for joining the organisation during the first workshop. If you missed it, follow the instructions in the [Intro Guide](https://canvas.lms.unimelb.edu.au/courses/239872/files/28098386?module_item_id=7653786) under the **Week 1** module on the LMS.
+
 After you have formed a team of 3-4 people, set up an initial meeting and
 complete the following steps together:
 1. Come up with a **team name** and designate a **team leader**. The team
