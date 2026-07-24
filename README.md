@@ -688,9 +688,12 @@ the following criteria:
 
 #### Shader (12 marks) — *Individual Mark × (IOA Weight)*
 
-- The shader should be non-trivial and custom-written for the game.
-- The shader should appropriately enhance the game's visuals and potentially reduce CPU load.
-- The shader should produce a distinct effect from the shaders created by other team members.
+- A custom Cg/HLSL vertex and/or fragment shader should be implemented for the game prototype.
+- The shader should demonstrate meaningful technical complexity beyond basic tutorial examples.
+- The shader should produce a clear and visible visual effect that is appropriate and relevant to the game's visual style as outlined in the Game Design Document (GDD).
+- The shader should expose meaningful parameters that allow its appearance or behaviour to be adjusted, with parameter changes producing clear visual variations.
+- The shader report should be well-written and include all information requested in the milestone specification.
+- The shader should be easy to locate, documented, and integrated into the submitted prototype so it can be easily tested.
 
 ### 3. Project Organisation (6 marks) — *Group Mark × (FeedbackFruits Score)*
 
