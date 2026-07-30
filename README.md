@@ -422,7 +422,7 @@ the following criteria:
 - **Inputs:** It should be possible to control the player character(s).
 - **Camera mechanics:** Camera mechanics as described in the GDD should be 
   operational. You should showcase your proposed camera perspective, and how it 
-  interacts with the environment, the characters, and any special camera movements
+  interacts with the environment, the characters, and any special camera movements.
 - **Deployability:** We are not expecting to see the final game environment and assets 
   at this stage, but there should be sufficient content for you to demonstrate
   the intended visual style for your game and to showcase the shaders you have created. 
@@ -577,7 +577,7 @@ You can expect technical questions specifically targeting the shader program
 you developed. In particular, you should be able to:
 
 - Give a clear and concise description of the shader you implemented.
-- Explain what each line of your code does
+- Explain what each line of your code does.
 - Explain the purpose of the major sections of your shader code.
 - Describe shader parameters exposed in Unity and how they affect the shader.
 
@@ -733,11 +733,11 @@ modify something, ask the teaching team first.
 A submission via Gradescope is required for every team-based submission
 (milestones 1-3). To make a submission, complete the following steps:
 
-1. For **Milestone 1**, The **team leader** must submit a single file on gradescope, which
+1. For **Milestone 1**, The **team leader** must submit a single file on Gradescope, which
    can be opened via the respective LMS assignment page. 
 2. For **Milestone 2-3**, The **team leader** must submit the (Github) project repository on Gradescope. This will require
    linking their GitHub account to Gradescope if they haven't already done so.
-4. Ensure that the GitHub repository is up-to-date and that the latest changes
+4. If you are submitting a repository, ensure that the GitHub repository is up-to-date and that the latest changes
    are merged into the `main` branch (if your team is using multiple branches).
 6. The **team leader** should wait for the autograder to validate the
    submission, and ensure that all validation test cases pass. 
@@ -746,12 +746,11 @@ A submission via Gradescope is required for every team-based submission
    guide](https://guides.gradescope.com/hc/en-us/articles/21863861823373-Adding-Group-Members-to-a-Submission)
    if you are unsure how to do this.
 8. **All team members** are expected to verify that they can see the submission
-   on Gradescope, that all test cases have passed, and that (for milestones 3
-   and 3) the correct version of the game has been deployed (see below).
+   on Gradescope, that all test cases have passed, and that (for milestones 3) the correct version of the game has been deployed (see below).
    If you're having issues, please contact the teaching team via a private post
    on the discussion board.
 
-When you submit milestones 2 and 3, the Gradescope autograder will perform some
+When you submit milestone 3, the Gradescope autograder will perform some
 simple validation tests. If these pass, it will trigger a build in your team's
 project repository using the **most recent** commit on the `main` branch and
 attempt to deploy the build to GitHub pages (this process occurs within your
