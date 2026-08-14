@@ -563,13 +563,9 @@ all required shader effects visible and functioning correctly.
 ## Milestone 4: Interactive Oral Assesment
 **Due: During Week 8-9 Tutorials (individual oral)**
 
-During the interactive oral assessment (IOA), you will be explaining the work that you have individually contributed to. Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you will need to bring your laptop and open the code you have submitted on Github at the time of the deadline. The assessor will ask you questions about **randomly selected parts of the code
-that you personally contributed to**. The focus will be on your understanding of
-your own implementation rather than the project as a whole.
+During the interactive oral assessment (IOA), you will be explaining the work that you have individually contributed to. Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you and your assessor will open and look at the code you submitted at the time of [Milestone 3's deadline](#milestone-3-working-prototype-and-shaders). The assessor will ask you questions about **randomly selected parts of the code that you personally contributed to**. The focus will be on your understanding of your own implementation rather than the project as a whole.
 
-The IOA will last **no longer than 5 minutes** and will be conducted **one
-student at a time**, so please ensure that everything is ready on your screen
-before your turn begins.
+The IOA will last **no longer than 5 minutes** and will be conducted **one student at a time**. The presence of your teammates is not required. While waiting for your turn, you can complete the tutorial materials of the week.
 
 ### Expectations
 
@@ -581,24 +577,16 @@ you developed. In particular, you should be able to:
 - Explain the purpose of the major sections of your shader code.
 - Describe shader parameters exposed in Unity and how they affect the shader.
 
-Rather than an oral exam, we consider the IOA as a **code review exercise** to
-help you improve your prototype for Assignment 2. The purpose is not to assess code quality, but to evaluate your understanding and authorship of the code you contributed. This allows us to distinguish
-between individual and team contributions and ensure that you understand the
-code that you have submitted.
+Rather than an oral exam, we consider the IOA as a **code review exercise**, much like the kind you'd get from a senior colleague or during a job interview. The purpose is not to assess code quality, but to evaluate your understanding and authorship of the code you contributed. This allows us to distinguish between individual and team contributions and ensure that you understand the code that you have submitted.
 
-The IOA does not receive a separate mark. Instead, it will determine an
-individual **weighting** (e.g. `0.7x`) that is applied to your group's mark to
-calculate your individual mark for Milestone 3. This means that your teammates may have different marks for this group assignment, accounting for their ability to talk about the code they contributed to.
+The IOA does not receive a separate mark. Instead, it will determine an individual **weight** (e.g. `0.7x`). That weight will be multiplied to your individual mark on the 'shader' component of Assignment 1 (worth 12 marks) to adjust its final value. 
 
 > [!WARNING]
-> If you are unable to demonstrate an understanding of your individually
-> contributed code, or cannot provide evidence that you meaningfully
-> contributed to the implementation, you will receive a **weight of** `0×`.
-> This means your individual mark for this component of the assignment will be
-> **0**.
+> If you are unable to demonstrate an understanding of your individually contributed code, or cannot provide evidence that you meaningfully contributed to the implementation, you will receive a **weight of** `0×`. This means your individual mark for this component of the assignment will be **0 / 12**.
 >
-> You will also receive a **weight of** `0×` if you do not attend the IOA, unless
-> an approved Special Consideration application has been granted.
+> You will also receive a **weight of** `0×` if you do not attend the IOA, unless an approved Special Consideration application has been granted.
+>
+> If you have an AAP, you still need to request an extension for each concerned submission by e-mailing us before the deadline, as we do not automatically grant extensions.
 
 ## Milestone 5: Team Member Evaluation
 **Due: Sunday 20 September, 11.59 pm Melbourne time (individual submission)**
