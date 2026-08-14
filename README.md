@@ -563,7 +563,7 @@ all required shader effects visible and functioning correctly.
 ## Milestone 4: Interactive Oral Assesment
 **Due: During Week 8-9 Tutorials (individual oral)**
 
-During the interactive oral assessment (IOA), you will be explaining the work that you have individually contributed to. Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you and your assessor will open and look at the code you submitted at the time of [Milestone 3's deadline](#milestone-3-working-prototype-and-shaders). The assessor will ask you questions about **randomly selected parts of the code that you personally contributed to**. The focus will be on your understanding of your own implementation rather than the project as a whole.
+During the interactive oral assessment (IOA), you will be explaining the shader that you have individually contributed to in [Milestone 3](#milestone-3-working-prototype-and-shaders). Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you and your assessor will open and look at the code you submitted at the time of [Milestone 3's deadline](#milestone-3-working-prototype-and-shaders). The assessor will ask you questions about **randomly selected parts of the code that you personally contributed to**. The focus will be on your understanding of your own implementation rather than the project as a whole.
 
 The IOA will last **no longer than 5 minutes** and will be conducted **one student at a time**. The presence of your teammates is not required. While waiting for your turn, you can complete the tutorial materials of the week.
 
