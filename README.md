@@ -560,7 +560,7 @@ the **final version** of the prototype (i.e. the one you want to be marked) can
 be played in a browser via the link on the submission confirmation page, with
 all required shader effects visible and functioning correctly.
 
-## Milestone 4: Interactive Oral Assesment
+## Milestone 4: Interactive Oral Assessment
 **Due: During Week 8-9 Tutorials (individual oral)**
 
 During the interactive oral assessment (IOA), you will be explaining the shader that you have individually contributed to in [Milestone 3](#milestone-3-working-prototype-and-shaders). Please note that this is not a presentation: you are not expected to prepare slides or any other material. Rather, you and your assessor will open and look at the code you submitted at the time of [Milestone 3's deadline](#milestone-3-working-prototype-and-shaders). The assessor will ask you questions about **randomly selected parts of the code that you personally contributed to**. The focus will be on your understanding of your own implementation rather than the project as a whole.
@@ -579,14 +579,16 @@ you developed. In particular, you should be able to:
 
 Rather than an oral exam, we consider the IOA as a **code review exercise**, much like the kind you'd get from a senior colleague or during a job interview. The purpose is not to assess code quality, but to evaluate your understanding and authorship of the code you contributed. This allows us to distinguish between individual and team contributions and ensure that you understand the code that you have submitted.
 
-The IOA does not receive a separate mark. Instead, it will determine an individual **weight** (e.g. `0.7x`). That weight will be multiplied to your individual mark on the 'shader' component of Assignment 1 (worth 12 marks) to adjust its final value. 
+The IOA does not receive a separate mark. Instead, it will determine an individual weight (e.g. 70%). That weight will be multiplied to your individual mark on the 'shader' component of Assignment 1 (worth 12 marks) to adjust its final value. There are 4 possible outcomes for this IOA: 
 
-> [!WARNING]
-> If you are unable to demonstrate an understanding of your individually contributed code, or cannot provide evidence that you meaningfully contributed to the implementation, you will receive a **weight of** `0×`. This means your individual mark for this component of the assignment will be **0 / 12**.
->
-> You will also receive a **weight of** `0×` if you do not attend the IOA, unless an approved Special Consideration application has been granted.
->
-> If you have an AAP, you still need to request an extension for each concerned submission by e-mailing us before the deadline, as we do not automatically grant extensions.
+| Level | Description | Mark |
+|---|---|---|
+| **No concern** | Demonstrates a good understanding of the code. The student may not answer every question, but there is no doubt about their engagement with the work. | 100% |
+| **Minor concern** | Explains a good portion of the code and shows genuine engagement, but some answers suggest limited understanding of certain sections. | 70% |
+| **Major concern** | Explains only a small part of the code and shows limited engagement with the work overall, though some understanding is evident. | 40% |
+| **Critical concern** | Shows no understanding of the code, provides no evidence of having contributed to it, or does not attend the interactive oral assessment. | 0% |
+
+The rubric above is indicative only. Again, note that we are not marking the quality of shader during the IOA (this is done separately). This means that a low-quality shader (or even a dysfunctional one) can still get you a 100%. Inversely, a high quality, advanced shader may still render a 0% mark. This is about showing us that you understand what you have submitted, which should be easy. Just talk your tutor through your thinking as clearly as you can. 
 
 ## Milestone 5: Team Member Evaluation
 **Due: Sunday 20 September, 11.59 pm Melbourne time (individual submission)**
