@@ -17,7 +17,7 @@ Assignment 1 is split into several milestones, each with its own deadline.
 - [Milestone 3 | Working Prototype and Shaders](#milestone-3-working-prototype-and-shaders) ... due end of Week 7, **Sunday 13 September, 11.59 pm Melbourne time**
 
 #### Individual submissions (one submission per student)
-- [Milestone 4 | Interactive Oral Assesments](#milestone-4-interactive-oral-assesment) ... due in **Week 8-9 Tutorials**
+- [Milestone 4 | Interactive Oral Assessments](#milestone-4-interactive-oral-assessment) ... due in **Week 8-9 Tutorials**
 - [Milestone 5 | Team Member Evaluation](#milestone-5-team-member-evaluation) ... due end of Week 8, **Sunday 20 September, 11.59 pm Melbourne time**
 
 ## Table of Contents
@@ -43,7 +43,7 @@ Assignment 1 is split into several milestones, each with its own deadline.
     - [Choosing a Shader](#choosing-a-shader)
     - [Shader Report](#shader-report)
   - [Submission](#submission-1)
-- [Milestone 4: Interactive Oral Assesments](#milestone-4-interactive-oral-assesment)
+- [Milestone 4: Interactive Oral Assessments](#milestone-4-interactive-oral-assessment)
   - [Expectations](#expectations)
 - [Milestone 5: Team Member Evaluation](#milestone-5-team-member-evaluation)
 - [Assessment](#assessment)
